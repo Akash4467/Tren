@@ -1,0 +1,17 @@
+datetime
+pyautogui
+pyttsx3
+speechrecognition
+psutil
+wikipedia
+requests
+beautifulsoup4
+torch
+transformers
+googlesearch-python
+numpy
+sentence-transformers
+scikit-learn
+groq
+python-dotenv
+pyaudio
