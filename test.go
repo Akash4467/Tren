@@ -19,7 +19,7 @@ func getUser(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 	}
 
 	defer rows.Close()
-
+ 
 	fmt.Fprintf(w, "User fetched")
 }
 
