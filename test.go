@@ -15,7 +15,7 @@ func getUser(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 	rows, err := db.Query(query)
 	if err != nil {
 		http.Error(w, err.Error(), 500)
-		return
+		return 
 	}
 
 	defer rows.Close()
